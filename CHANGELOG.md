@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/tekojs/http/compare/v1.0.0...v1.1.0) (2026-04-06)
+
+
+### Features
+
+* **test:** configuracao de testae para funcionalidades do teko ([e430e4b](https://github.com/tekojs/http/commit/e430e4bbccd561649c1686791e366c8cb81ab503))
+
+
+### Bug Fixes
+
+* **ts-node-maintained:** install novo pacote para teste ([2dd2874](https://github.com/tekojs/http/commit/2dd28742addeaf91d1bb5082419d450b0f32f329))
+
 ## 1.0.0 (2026-04-06)
 
 
