@@ -71,6 +71,7 @@
     "prettier": "^3.5.2",
     "qs": "^6.15.0",
     "ts-node-dev": "^2.0.0",
+    "ts-node-maintained": "^10.9.6",
     "tsdown": "^0.21.7",
     "tsup": "^8.5.1",
     "typescript": "^6.0.2"
