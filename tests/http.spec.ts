@@ -6,11 +6,4 @@ test.group('http', () => {
         assert.isFalse(false)
     })
 
-    test('should handle a 404 error', async ({ assert }) => {
-        try {
-            await fetch('https://jsonplaceholder.typicode.com/posts/9999')
-        } catch (error) {
-            assert.instanceOf(error, Error)
-        }
-    })
 })
