@@ -8,7 +8,7 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/src/index.js"
+      "import": "./dist/index.js"
     }
   },
   "engines": {
@@ -50,6 +50,13 @@
     "@arapucajs/tsconfig": "^1.0.0",
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
+    "@swc/core": "^1.15.24",
+    "@t8ngs/assert": "^1.0.0",
+    "@t8ngs/expect": "^1.1.0",
+    "@t8ngs/fs": "^1.0.0",
+    "@t8ngs/runner": "^1.0.1",
+    "@types/chai": "^5.2.3",
+    "@types/dedent": "^0.7.2",
     "@types/node": "^25.5.2",
     "@typescript-eslint/eslint-plugin": "^8.29.0",
     "@typescript-eslint/parser": "^8.29.0",
@@ -85,7 +92,7 @@
   "tsup": {
     "entry": [
       "./index.ts",
-      "./src/types.ts"
+      "./src/index.ts"
     ],
     "outDir": "./dist",
     "clean": true,
