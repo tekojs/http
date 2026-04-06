@@ -57,6 +57,7 @@
     "@t8ngs/runner": "^1.0.1",
     "@types/chai": "^5.2.3",
     "@types/dedent": "^0.7.2",
+    "@types/express": "^5.0.6",
     "@types/node": "^25.5.2",
     "@typescript-eslint/eslint-plugin": "^8.29.0",
     "@typescript-eslint/parser": "^8.29.0",
@@ -69,6 +70,7 @@
     "husky": "^9.1.7",
     "prettier": "^3.5.2",
     "qs": "^6.15.0",
+    "ts-node-dev": "^2.0.0",
     "tsdown": "^0.21.7",
     "tsup": "^8.5.1",
     "typescript": "^6.0.2"
@@ -102,6 +104,10 @@
     "target": "esnext"
   },
   "dependencies": {
+    "@tekojs/core": "^2.0.2",
     "@tekojs/ssr": "^1.0.0"
+  },
+  "peerDependencies": {
+    "express": "^5.2.1"
   }
 }
