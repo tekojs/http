@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/tekojs/http/compare/v1.1.0...v1.1.1) (2026-04-06)
+
+
+### Bug Fixes
+
+* **lock:** ajustando lock para o npm ci ([362521a](https://github.com/tekojs/http/commit/362521a3aa90a7da7a960dffc07617817e13b081))
+
 ## [1.1.0](https://github.com/tekojs/http/compare/v1.0.0...v1.1.0) (2026-04-06)
 
 
